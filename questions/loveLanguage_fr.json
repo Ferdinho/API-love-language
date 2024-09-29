@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "Après une longue semaine, qu'est-ce qui vous fait vous sentir le plus apprécié(e) ?",
+        "choices": {
+            "A": "Passer une journée entière à faire des activités ensemble",
+            "B": "Un câlin chaleureux de la part d’un proche",
+            "C": "Entendre votre partenaire dire qu'il ou elle est fier(e) de vous",
+            "D": "Quand quelqu'un vous aide à faire des courses",
+            "E": "Recevoir un cadeau surprise, comme un livre que vous vouliez vraiment"
+        }
+    },
+    {
+        "id": 2,
+        "question": "Quand vous vous sentez déprimé(e), qu'est-ce qui vous remonte le moral ?",
+        "choices": {
+            "A": "Un message attentionné d'un proche",
+            "B": "Un cadeau inattendu, comme des fleurs",
+            "C": "Quelqu'un qui vous écoute pendant que vous vous confiez",
+            "D": "Un câlin réconfortant",
+            "E": "Un ami qui passe rapidement pour discuter"
+        }
+    },
+    {
+        "id": 3,
+        "question": "Dans une relation, comment aimez-vous exprimer votre amour ?",
+        "choices": {
+            "A": "Acheter leur friandise préférée",
+            "B": "Planifier une escapade surprise",
+            "C": "Leur faire un massage après une longue journée",
+            "D": "Faire des tâches ménagères sans qu'on vous le demande",
+            "E": "Écrire de petits mots qu'ils ou elles découvrent plus tard"
+        }
+    },
+    {
+        "id": 4,
+        "question": "Qu'est-ce qui vous fait vous sentir le plus spécial(e) le jour de votre anniversaire ?",
+        "choices": {
+            "A": "Une carte sincère exprimant de l'amour",
+            "B": "Un long câlin chaleureux d'une personne que vous aimez",
+            "C": "Passer du temps de qualité avec des amis proches",
+            "D": "Une journée où votre partenaire fait tout pour vous",
+            "E": "Une fête surprise organisée juste pour vous"
+        }
+    },
+    {
+        "id": 5,
+        "question": "Comment vous sentez-vous aimé(e) lors d'une journée difficile ?",
+        "choices": {
+            "A": "Un café surprise livré chez vous",
+            "B": "Un message de soutien d'un être cher",
+            "C": "Une soirée à regarder votre émission préférée ensemble",
+            "D": "Un câlin réconfortant quand vous rentrez à la maison",
+            "E": "Un petit cadeau qui montre qu'ils tiennent à vous"
+        }
+    },
+    {
+        "id": 6,
+        "question": "Lors des réunions de famille, qu'est-ce qui vous fait vous sentir le plus connecté(e) ?",
+        "choices": {
+            "A": "Recevoir un cadeau d’un membre de la famille",
+            "B": "Les gestes affectueux comme les câlins",
+            "C": "Aider à préparer le repas ensemble",
+            "D": "Partager des histoires et des rires ensemble",
+            "E": "Des compliments de la part des membres de la famille"
+        }
+    },
+    {
+        "id": 7,
+        "question": "Quelle action de la part de votre partenaire vous ferait vous sentir le plus chéri(e) ?",
+        "choices": {
+            "A": "Se tenir la main en regardant un film",
+            "B": "Passer un week-end entier ensemble",
+            "C": "Une conversation sincère sur votre avenir",
+            "D": "Vous surprendre avec un cadeau attentionné",
+            "E": "Cuisiner votre repas préféré pour vous"
+        }
+    },
+    {
+        "id": 8,
+        "question": "Comment préférez-vous célébrer vos réussites ?",
+        "choices": {
+            "A": "Sortir dîner avec des êtres chers",
+            "B": "Recevoir un cadeau de félicitations",
+            "C": "Un câlin de félicitations d'un ami proche",
+            "D": "Entendre des mots d'éloge de la part des amis",
+            "E": "Que quelqu'un vous aide à planifier la célébration"
+        }
+    },
+    {
+        "id": 9,
+        "question": "Qu'est-ce qui vous fait vous sentir apprécié(e) au travail ?",
+        "choices": {
+            "A": "Un mot de remerciement lors d'une réunion d'équipe",
+            "B": "Recevoir un petit cadeau pour votre travail acharné",
+            "C": "De l'aide pour un gros projet",
+            "D": "Une tape dans le dos ou un câlin de la part d’un collègue",
+            "E": "Passer du temps avec des collègues pendant les pauses"
+        }
+    },
+    {
+        "id": 10,
+        "question": "Comment aimez-vous recevoir du soutien lorsque vous vous sentez submergé(e) ?",
+        "choices": {
+            "A": "Un câlin réconfortant",
+            "B": "Un petit cadeau pour vous remonter le moral",
+            "C": "Des mots d'encouragement de la part des proches",
+            "D": "Que quelqu'un vous aide à accomplir vos tâches",
+            "E": "Du temps de qualité passé à discuter"
+        }
+    },
+    {
+        "id": 11,
+        "question": "Qu'est-ce qui rend un rendez-vous romantique spécial pour vous ?",
+        "choices": {
+            "A": "Un cadeau surprise qui montre qu'ils vous connaissent",
+            "B": "Explorer de nouveaux endroits ensemble",
+            "C": "Se blottir pendant un film",
+            "D": "Que votre partenaire prenne en charge toute la planification",
+            "E": "Une conversation sincère lors d'un dîner"
+        }
+    },
+    {
+        "id": 12,
+        "question": "Qu'appréciez-vous le plus pendant les vacances ?",
+        "choices": {
+            "A": "Les câlins et l'affection des êtres chers",
+            "B": "Recevoir des cadeaux de la part de la famille",
+            "C": "Partager des repas et des histoires",
+            "D": "Des mots d'amour et de gratitude",
+            "E": "L'aide des membres de la famille pour les préparatifs"
+        }
+    },
+    {
+        "id": 13,
+        "question": "Comment vous sentez-vous le plus aimé(e) quand vous êtes triste ?",
+        "choices": {
+            "A": "Un cadeau surprise qui illumine votre journée",
+            "B": "Quelqu'un qui vous encourage",
+            "C": "Passer du temps ensemble",
+            "D": "Du réconfort physique, comme un câlin",
+            "E": "Un geste attentionné, comme cuisiner pour vous"
+        }
+    },
+    {
+        "id": 14,
+        "question": "Quel petit geste a un grand impact sur vous ?",
+        "choices": {
+            "A": "Un petit cadeau sans raison particulière",
+            "B": "Passer une journée à faire quelque chose de fun ensemble",
+            "C": "De l'aide pour un projet",
+            "D": "Un contact réconfortant pendant un moment difficile",
+            "E": "Un mot laissé pour vous"
+        }
+    },
+    {
+        "id": 15,
+        "question": "Quand vous pensez aux langages de l'amour, lequel résonne le plus en vous ?",
+        "choices": {
+            "A": "Des cadeaux attentionnés qui ont du sens",
+            "B": "Passer du temps de qualité ensemble",
+            "C": "Ressentir une connexion physique proche",
+            "D": "Des actes de service qui montrent de l'attention",
+            "E": "Entendre des mots gentils"
+        }
+    },
+    {
+        "id": 16,
+        "question": "Qu'aimez-vous faire avec vos proches ?",
+        "choices": {
+            "A": "Se blottir sur le canapé",
+            "B": "Donner et recevoir des cadeaux",
+            "C": "Partager des compliments",
+            "D": "Partir à l'aventure ensemble",
+            "E": "S'entraider"
+        }
+    },
+    {
+        "id": 17,
+        "question": "Comment vous sentez-vous le plus connecté(e) à votre partenaire ?",
+        "choices": {
+            "A": "À travers des expériences partagées",
+            "B": "Entendre qu'ils ou elles expriment leurs sentiments",
+            "C": "À travers de petits cadeaux significatifs",
+            "D": "En vous sentant physiquement proche",
+            "E": "En faisant quelque chose de gentil sans que cela soit demandé"
+        }
+    },
+    {
+        "id": 18,
+        "question": "Comment exprimez-vous votre amour à un ami ?",
+        "choices": {
+            "A": "Offrir de l'aide quand ils en ont besoin",
+            "B": "Offrir un cadeau significatif",
+            "C": "Les inviter à prendre un café",
+            "D": "Leur donner un câlin ou une tape dans le dos",
+            "E": "Leur faire des compliments"
+        }
+    },
+    {
+        "id": 19,
+        "question": "Quand vous êtes stressé(e), quelle action vous calme le plus ?",
+        "choices": {
+            "A": "Une promenade tranquille ensemble",
+            "B": "Recevoir un cadeau réconfortant",
+            "C": "Un contact doux et rassurant",
+            "D": "Quelqu'un qui vous aide dans votre travail",
+            "E": "Quelqu'un qui vous dit que tout ira bien"
+        }
+    },
+    {
+        "id": 20,
+        "question": "Comment préférez-vous passer du temps de qualité avec vos proches ?",
+        "choices": {
+            "A": "Faire des activités amusantes ensemble",
+            "B": "Offrir de petits cadeaux significatifs",
+            "C": "Se blottir sur le canapé",
+            "D": "Discuter de votre journée",
+            "E": "S'entraider pour les tâches quotidiennes"
+        }
+    },
+    {
+        "id": 21,
+        "question": "Qu'est-ce qui vous fait vous sentir le plus soutenu(e) lors d'une période difficile ?",
+        "choices": {
+            "A": "Recevoir des mots d'encouragement",
+            "B": "Recevoir un cadeau attentionné",
+            "C": "Avoir quelqu'un physiquement là pour vous",
+            "D": "Quelqu'un qui vous aide dans vos tâches",
+            "E": "Un contact physique réconfortant"
+        }
+    },
+    {
+        "id": 22,
+        "question": "Comment aimez-vous vous sentir apprécié(e) ?",
+        "choices": {
+            "A": "Passer du temps avec quelqu'un qui vous écoute",
+            "B": "Recevoir un petit signe d'appréciation",
+            "C": "Un câlin ou une tape dans le dos",
+            "D": "Recevoir des compliments pour ce que vous avez fait",
+            "E": "Que quelqu'un vous aide dans vos responsabilités"
+        }
+    },
+    {
+        "id": 23,
+        "question": "Comment célébrez-vous les occasions spéciales ?",
+        "choices": {
+            "A": "Donner ou recevoir des câlins de tout le monde",
+            "B": "Recevoir une carte manuscrite",
+            "C": "Recevoir des cadeaux qui montrent que l'on pense à vous",
+            "D": "Passer la journée avec des êtres chers",
+            "E": "Que quelqu'un s'occupe des petits détails pour vous"
+        }
+    },
+    {
+        "id": 24,
+        "question": "Qu'est-ce qui vous rapproche le plus de votre partenaire ?",
+        "choices": {
+            "A": "Passer du temps ensemble sans interruption",
+            "B": "Se blottir ou se tenir la main",
+            "C": "Recevoir des cadeaux attentionnés",
+            "D": "Avoir une conversation profonde",
+            "E": "Quand ils font quelque chose de gentil sans être demandé"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Quand vous pensez à une journée parfaite, qu'inclut-elle ?",
+        "choices": {
+            "A": "Partager de nouvelles expériences avec quelqu'un",
+            "B": "Un câlin réconfortant",
+            "C": "Recevoir un petit cadeau surprise",
+            "D": "Des compliments significatifs de la part de vos proches",
+            "E": "Que quelqu'un fasse quelque chose de spécial pour vous"
+        }
+    }
+]

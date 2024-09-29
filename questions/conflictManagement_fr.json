@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "Comment gérez-vous les désaccords avec votre partenaire concernant les tâches ménagères ?",
+        "choices": {
+            "A": "J'ignore le problème et j'espère qu'il disparaîtra",
+            "B": "Je fais les tâches moi-même pour maintenir la paix",
+            "C": "Je propose de partager les tâches de manière égale",
+            "D": "Je propose de les faire ensemble pour rendre cela amusant",
+            "E": "J'insiste pour que ma façon de faire les tâches soit meilleure"
+        }
+    },
+    {
+        "id": 2,
+        "question": "Vous et votre ami(e) n'arrivez pas à décider où aller dîner. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je laisse mon ami(e) choisir l'endroit",
+            "B": "J'insiste pour aller à mon restaurant préféré",
+            "C": "Je propose un endroit qui offre nos plats préférés à tous les deux",
+            "D": "Je propose de ne pas aller dîner et de faire autre chose",
+            "E": "Je cherche un endroit que nous aimons tous les deux"
+        }
+    },
+    {
+        "id": 3,
+        "question": "Au travail, vous n'êtes pas d'accord avec un collègue sur la façon d'aborder un projet. Comment réagissez-vous ?",
+        "choices": {
+            "A": "Je défends mon idée et j'insiste pour utiliser mon approche",
+            "B": "J'évite de mentionner mon désaccord",
+            "C": "Je suis d'accord avec leur approche pour éviter les conflits",
+            "D": "Je propose d'incorporer des parties de nos deux idées",
+            "E": "Je propose une réunion pour combiner le meilleur de nos deux idées"
+        }
+    },
+    {
+        "id": 4,
+        "question": "Vous et votre frère/sœur vous disputez le dernier morceau de gâteau. Que faites-vous ?",
+        "choices": {
+            "A": "J'insiste que c'est à moi car je l'ai vu en premier",
+            "B": "Je propose de le partager équitablement et de le déguster ensemble",
+            "C": "Je m'en vais et je le/la laisse l'avoir",
+            "D": "Je le/la laisse l'avoir pour éviter de se disputer",
+            "E": "Je propose de le couper en deux"
+        }
+    },
+    {
+        "id": 5,
+        "question": "Comment gérez-vous un voisin qui joue de la musique forte la nuit ?",
+        "choices": {
+            "A": "Je propose un compromis, comme baisser le volume après 22h",
+            "B": "Je leur dis d'arrêter immédiatement sinon je les dénoncerai",
+            "C": "J'ignore le problème et j'espère qu'ils arrêteront",
+            "D": "Je ne dis rien pour maintenir la paix",
+            "E": "Je frappe à leur porte et je leur propose de s'entendre sur des horaires de silence"
+        }
+    },
+    {
+        "id": 6,
+        "question": "Vous et votre partenaire n'êtes pas d'accord sur la façon de passer le week-end. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je suis leur plan pour éviter les conflits",
+            "B": "Je propose de diviser le week-end, un jour à leur façon et un jour à la mienne",
+            "C": "Je propose des activités que nous apprécions tous les deux",
+            "D": "J'évite de discuter des plans et je me laisse porter",
+            "E": "J'insiste pour faire ce que je veux car j'avais des plans en premier"
+        }
+    },
+    {
+        "id": 7,
+        "question": "Lors d'une réunion de famille, un débat politique houleux éclate. Comment réagissez-vous ?",
+        "choices": {
+            "A": "Je défends fermement mon point de vue",
+            "B": "Je propose que tout le monde accepte d'être en désaccord",
+            "C": "J'encourage tout le monde à discuter calmement de leurs points de vue",
+            "D": "Je reste en dehors du débat complètement",
+            "E": "Je suis d'accord avec le camp le plus paisible"
+        }
+    },
+    {
+        "id": 8,
+        "question": "Un collègue a pris le crédit pour votre travail. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je le/la confronte immédiatement et je demande le crédit",
+            "B": "Je lui parle en privé et je propose de partager le crédit",
+            "C": "Je lui propose de discuter pour que nous obtenions tous les deux la reconnaissance",
+            "D": "J'évite de le mentionner et je passe à autre chose",
+            "E": "Je laisse passer pour éviter de créer une scène"
+        }
+    },
+    {
+        "id": 9,
+        "question": "Votre partenaire veut regarder un film que vous n'aimez pas. Que faites-vous ?",
+        "choices": {
+            "A": "Je propose de choisir les films à tour de rôle",
+            "B": "Je propose de regarder quelque chose que nous apprécions tous les deux",
+            "C": "J'insiste pour regarder ce que je veux car j'ai choisi la dernière fois",
+            "D": "Je les laisse regarder pendant que je fais autre chose",
+            "E": "J'accepte de le regarder pour leur faire plaisir"
+        }
+    },
+    {
+        "id": 10,
+        "question": "Votre ami vous demande de l'aider à déménager, mais vous avez d'autres projets. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je propose de les aider un autre jour",
+            "B": "Je propose d'aider quelques heures, puis de garder mes projets après",
+            "C": "Je leur dis que je ne peux pas aider et je garde mes projets",
+            "D": "J'évite la conversation complètement",
+            "E": "J'annule mes plans pour les aider à déménager"
+        }
+    },
+    {
+        "id": 11,
+        "question": "Pendant un projet de groupe, un membre de l'équipe ne fait pas sa part du travail. Que faites-vous ?",
+        "choices": {
+            "A": "Je fais du travail supplémentaire pour le/la couvrir",
+            "B": "Je propose de répartir le travail de manière plus équitable",
+            "C": "J'ignore le problème et j'espère que cela s'améliorera",
+            "D": "Je dis au groupe que nous devons le/la remplacer ou je prendrai le relais",
+            "E": "Je lui parle pour que nous contribuions tous de manière égale"
+        }
+    },
+    {
+        "id": 12,
+        "question": "Vous et votre partenaire avez des opinions différentes sur la façon de décorer la maison. Que faites-vous ?",
+        "choices": {
+            "A": "Je les laisse décorer comme ils/elles veulent",
+            "B": "Je propose que chacun décore ses propres espaces",
+            "C": "Je propose de trouver un style que nous aimons tous les deux",
+            "D": "J'évite d'en discuter",
+            "E": "J'insiste pour décorer comme je le veux"
+        }
+    },
+    {
+        "id": 13,
+        "question": "Vous et votre ami n'êtes pas d'accord sur la destination des vacances. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je propose de diviser le voyage en deux destinations",
+            "B": "Je vais avec leur choix pour garder la paix",
+            "C": "J'insiste sur mon choix car j'ai planifié le voyage",
+            "D": "J'essaie de trouver une destination que nous apprécierons tous les deux",
+            "E": "Je les laisse décider et je m'en tiens à l'écart"
+        }
+    },
+    {
+        "id": 14,
+        "question": "Vous et votre collègue n'êtes pas d'accord sur un délai de projet. Comment réagissez-vous ?",
+        "choices": {
+            "A": "J'insiste pour respecter le délai original",
+            "B": "Je propose un prolongement raisonnable pour trouver un compromis",
+            "C": "Je parle avec mon collègue et je propose une solution plus juste",
+            "D": "J'évite de les confronter et je laisse passer le délai",
+            "E": "J'accepte de prolonger le délai pour éviter des problèmes"
+        }
+    },
+    {
+        "id": 15,
+        "question": "Vous et votre partenaire vous disputez à propos des finances. Que faites-vous ?",
+        "choices": {
+            "A": "J'insiste pour gérer les finances à ma façon",
+            "B": "Je propose de faire un compromis en budgétisant pour nos deux besoins",
+            "C": "Je propose de s'asseoir ensemble et de planifier un budget",
+            "D": "J'évite de parler d'argent pour maintenir la paix",
+            "E": "J'accepte de suivre leur plan financier"
+        }
+    },
+    {
+        "id": 16,
+        "question": "Un(e) ami(e) est contrarié(e) parce que vous êtes arrivé(e) en retard. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je m'excuse et j'assume tout le blâme",
+            "B": "Je propose de trouver un terrain d'entente pour éviter les retards futurs",
+            "C": "Je discute du problème pour trouver un moyen de l'éviter à l'avenir",
+            "D": "Je défends mes raisons pour être en retard",
+            "E": "J'évite d'en parler et j'espère qu'ils/elles oublieront"
+        }
+    },
+    {
+        "id": 17,
+        "question": "Votre patron vous confie une tâche que vous jugez injuste. Comment réagissez-vous ?",
+        "choices": {
+            "A": "Je dis à mon patron que ce n'est pas mon travail et je refuse",
+            "B": "Je propose un compromis, comme partager la tâche avec d'autres",
+            "C": "Je parle avec mon patron et je propose une solution plus juste",
+            "D": "Je ne dis rien et je fais simplement la tâche",
+            "E": "J'accepte la tâche pour éviter les conflits"
+        }
+    },
+    {
+        "id": 18,
+        "question": "Lors d'une discussion animée, comment gérez-vous le conflit ?",
+        "choices": {
+            "A": "Je défends mon point de vue jusqu'à ce que l'autre personne soit d'accord",
+            "B": "Je propose que chacun fasse des concessions pour résoudre le problème",
+            "C": "J'essaie de discuter calmement du problème pour trouver une solution",
+            "D": "J'évite de dire quoi que ce soit pour calmer les choses",
+            "E": "Je suis d'accord avec l'autre personne pour mettre fin à la dispute"
+        }
+    },
+    {
+        "id": 19,
+        "question": "Comment gérez-vous un(e) ami(e) qui arrive constamment en retard ?",
+        "choices": {
+            "A": "J'évite de mentionner le problème et je fais avec",
+            "B": "Je propose de se rencontrer à mi-chemin sur les horaires",
+            "C": "Je leur parle de l'importance de la ponctualité pour moi",
+            "D": "J'insiste pour qu'ils/elles soient à l'heure ou j'arrêterai de les voir",
+            "E": "Je laisse tomber chaque fois pour éviter la confrontation"
+        }
+    },
+    {
+        "id": 20,
+        "question": "Vous et votre colocataire n'êtes pas d'accord sur la façon de partager les factures. Comment résolvez-vous cela ?",
+        "choices": {
+            "A": "Je propose que chacun paie ce qu'il/elle utilise",
+            "B": "J'évite de parler des finances pour maintenir la paix",
+            "C": "Je les laisse décider comment nous partageons les factures",
+            "D": "Je propose de travailler ensemble pour trouver un partage équitable",
+            "E": "J'insiste pour ne payer que ma part"
+        }
+    },
+    {
+        "id": 21,
+        "question": "Vous et votre partenaire vous disputez sur où passer les vacances. Comment résolvez-vous cela ?",
+        "choices": {
+            "A": "J'accepte d'aller où ils/elles veulent",
+            "B": "J'insiste pour aller chez ma famille",
+            "C": "J'évite de parler du sujet et j'espère que cela se résoudra tout seul",
+            "D": "Je propose de partager le temps entre les deux familles",
+            "E": "Je propose un plan qui nous rende tous les deux heureux"
+        }
+    },
+    {
+        "id": 22,
+        "question": "Vous et un(e) collègue voulez tous les deux diriger un nouveau projet. Comment gérez-vous cela ?",
+        "choices": {
+            "A": "Je les laisse diriger pour éviter les conflits",
+            "B": "Je propose de trouver la meilleure personne en fonction des compétences",
+            "C": "J'insiste pour diriger le projet moi-même",
+            "D": "Je recule et les laisse prendre la direction",
+            "E": "Je propose que nous co-dirigeons le projet"
+        }
+    },
+    {
+        "id": 23,
+        "question": "Un membre de la famille continue d'emprunter de l'argent sans le rendre. Comment réagissez-vous ?",
+        "choices": {
+            "A": "J'évite de parler de cela et je fais avec",
+            "B": "Je propose un plan de remboursement sur lequel nous sommes d'accord",
+            "C": "Je leur parle de l'impact que cela a sur moi et je trouve une solution",
+            "D": "Je laisse passer pour éviter les tensions familiales",
+            "E": "J'insiste pour qu'ils/elles me remboursent immédiatement"
+        }
+    },
+    {
+        "id": 24,
+        "question": "Un collègue n'est pas d'accord avec votre approche d'une tâche. Comment réagissez-vous ?",
+        "choices": {
+            "A": "Je suis d'accord avec eux pour maintenir la fluidité",
+            "B": "J'évite de discuter et j'accepte leur idée",
+            "C": "Je propose de combiner nos idées à mi-chemin",
+            "D": "Je discute avec eux pour trouver une approche mutuellement bénéfique",
+            "E": "J'insiste pour faire à ma façon"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Votre ami(e) a emprunté votre veste préférée sans demander. Que faites-vous ?",
+        "choices": {
+            "A": "J'évite de les confronter à ce sujet",
+            "B": "J'exige qu'ils/elles la rendent immédiatement",
+            "C": "Je laisse passer et je ne dis rien pour maintenir la paix",
+            "D": "Je leur propose de demander la prochaine fois et je la prêterai",
+            "E": "Je leur parle de l'importance de demander d'abord"
+        }
+    }
+]

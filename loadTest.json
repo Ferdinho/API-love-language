@@ -1,0 +1,52 @@
+{
+    "config": {
+      "target": "http://localhost:3000",
+      "phases": [
+        {
+          "duration": 60,
+          "arrivalRate": 5
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "flow": [
+          {
+            "post": {
+              "url": "/v1/en/submit-love-language-answers",
+              "json": {
+                "answers": [
+                  { "questionId": 1, "answer": "A" },
+                  { "questionId": 2, "answer": "B" },
+                  { "questionId": 3, "answer": "C" },
+                  { "questionId": 4, "answer": "D" },
+                  { "questionId": 5, "answer": "E" },
+                  { "questionId": 6, "answer": "A" },
+                  { "questionId": 7, "answer": "B" },
+                  { "questionId": 8, "answer": "C" },
+                  { "questionId": 9, "answer": "D" },
+                  { "questionId": 10, "answer": "E" },
+                  { "questionId": 11, "answer": "A" },
+                  { "questionId": 12, "answer": "B" },
+                  { "questionId": 13, "answer": "C" },
+                  { "questionId": 14, "answer": "D" },
+                  { "questionId": 15, "answer": "E" },
+                  { "questionId": 16, "answer": "A" },
+                  { "questionId": 17, "answer": "B" },
+                  { "questionId": 18, "answer": "C" },
+                  { "questionId": 19, "answer": "D" },
+                  { "questionId": 20, "answer": "E" },
+                  { "questionId": 21, "answer": "A" },
+                  { "questionId": 22, "answer": "B" },
+                  { "questionId": 23, "answer": "C" },
+                  { "questionId": 24, "answer": "D" },
+                  { "questionId": 25, "answer": "E" }
+                ]
+              }              
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "After a long week, what makes you feel most appreciated?",
+        "choices": {
+            "A": "Spending a whole day doing activities together (Quality Time)",
+            "B": "A warm hug from a loved one (Physical Touch)",
+            "C": "Hearing your partner say they are proud of you (Words of Affirmation)",
+            "D": "When someone helps you with errands (Acts of Service)",
+            "E": "Receiving a surprise gift, like a book you really wanted (Receiving Gifts)"
+        }
+    },
+    {
+        "id": 2,
+        "question": "When you’re feeling down, what lifts your spirits?",
+        "choices": {
+            "A": "A thoughtful text from a loved one (Words of Affirmation)",
+            "B": "An unexpected gift, like flowers (Receiving Gifts)",
+            "C": "Having someone listen to you while you vent (Acts of Service)",
+            "D": "A comforting hug (Physical Touch)",
+            "E": "A friend stopping by for a quick chat (Quality Time)"
+        }
+    },
+    {
+        "id": 3,
+        "question": "In a relationship, how do you like to express love?",
+        "choices": {
+            "A": "Buying them their favorite treat (Receiving Gifts)",
+            "B": "Planning a surprise getaway (Quality Time)",
+            "C": "Giving them a massage after a long day (Physical Touch)",
+            "D": "Doing chores for them without being asked (Acts of Service)",
+            "E": "Writing little notes for them to find (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 4,
+        "question": "What makes you feel most special on your birthday?",
+        "choices": {
+            "A": "A heartfelt card expressing love (Words of Affirmation)",
+            "B": "A long, warm hug from someone you love (Physical Touch)",
+            "C": "Quality time spent with close friends (Quality Time)",
+            "D": "A day where your partner does everything for you (Acts of Service)",
+            "E": "A surprise party planned just for you (Receiving Gifts)"
+        }
+    },
+    {
+        "id": 5,
+        "question": "How do you feel loved during a tough day?",
+        "choices": {
+            "A": "A surprise coffee delivered to you (Acts of Service)",
+            "B": "A supportive message from a loved one (Words of Affirmation)",
+            "C": "An evening spent watching your favorite show together (Quality Time)",
+            "D": "A comforting hug when you get home (Physical Touch)",
+            "E": "A small gift that shows they care (Receiving Gifts)"
+        }
+    },
+    {
+        "id": 6,
+        "question": "During family gatherings, what makes you feel most connected?",
+        "choices": {
+            "A": "Receiving a gift from a relative (Receiving Gifts)",
+            "B": "Physical affection like hugs (Physical Touch)",
+            "C": "Helping prepare the meal together (Acts of Service)",
+            "D": "Sharing stories and laughter together (Quality Time)",
+            "E": "Compliments from family members (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 7,
+        "question": "What action from your partner would make you feel the most cherished?",
+        "choices": {
+            "A": "Holding hands while watching a movie (Physical Touch)",
+            "B": "Spending an entire weekend together (Quality Time)",
+            "C": "A heartfelt conversation about your future (Words of Affirmation)",
+            "D": "Surprising you with a thoughtful gift (Receiving Gifts)",
+            "E": "Cooking your favorite meal for you (Acts of Service)"
+        }
+    },
+    {
+        "id": 8,
+        "question": "How do you prefer to celebrate your achievements?",
+        "choices": {
+            "A": "Going out for a nice dinner with loved ones (Quality Time)",
+            "B": "Receiving a congratulatory gift (Receiving Gifts)",
+            "C": "A congratulatory hug from a close friend (Physical Touch)",
+            "D": "Hearing words of praise from friends (Words of Affirmation)",
+            "E": "Having someone help plan the celebration (Acts of Service)"
+        }
+    },
+    {
+        "id": 9,
+        "question": "What makes you feel appreciated at work?",
+        "choices": {
+            "A": "A shout-out in a team meeting (Words of Affirmation)",
+            "B": "Receiving a small gift for your hard work (Receiving Gifts)",
+            "C": "Help with a big project (Acts of Service)",
+            "D": "A pat on the back or a hug from a coworker (Physical Touch)",
+            "E": "Spending time with colleagues during breaks (Quality Time)"
+        }
+    },
+    {
+        "id": 10,
+        "question": "How do you like to receive support when feeling overwhelmed?",
+        "choices": {
+            "A": "A comforting hug (Physical Touch)",
+            "B": "A small gift to cheer you up (Receiving Gifts)",
+            "C": "Encouraging words from loved ones (Words of Affirmation)",
+            "D": "Having someone help with your tasks (Acts of Service)",
+            "E": "Quality time spent chatting (Quality Time)"
+        }
+    },
+    {
+        "id": 11,
+        "question": "What makes a romantic date special for you?",
+        "choices": {
+            "A": "A surprise gift that shows they know you (Receiving Gifts)",
+            "B": "Exploring new places together (Quality Time)",
+            "C": "Cuddling during a movie (Physical Touch)",
+            "D": "Your partner taking care of all the planning (Acts of Service)",
+            "E": "A heartfelt conversation over dinner (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 12,
+        "question": "What do you appreciate most during the holidays?",
+        "choices": {
+            "A": "Hugs and affection from loved ones (Physical Touch)",
+            "B": "Receiving gifts from family (Receiving Gifts)",
+            "C": "Sharing meals and stories (Quality Time)",
+            "D": "Words of love and gratitude (Words of Affirmation)",
+            "E": "Help from family members with preparations (Acts of Service)"
+        }
+    },
+    {
+        "id": 13,
+        "question": "How do you feel most loved when you’re sad?",
+        "choices": {
+            "A": "A surprise gift that brightens your day (Receiving Gifts)",
+            "B": "Someone encouraging you (Words of Affirmation)",
+            "C": "Quality time spent together (Quality Time)",
+            "D": "Physical comfort, like a hug (Physical Touch)",
+            "E": "A thoughtful act, like cooking for you (Acts of Service)"
+        }
+    },
+    {
+        "id": 14,
+        "question": "What small gesture makes a big impact on you?",
+        "choices": {
+            "A": "A small gift just because (Receiving Gifts)",
+            "B": "Spending a day doing something fun together (Quality Time)",
+            "C": "Helping you with a project (Acts of Service)",
+            "D": "A comforting touch during a tough time (Physical Touch)",
+            "E": "A note left for you (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 15,
+        "question": "When you think about love languages, which resonates with you?",
+        "choices": {
+            "A": "Thoughtful gifts that mean something (Receiving Gifts)",
+            "B": "Spending quality time together (Quality Time)",
+            "C": "Feeling a close connection (Physical Touch)",
+            "D": "Acts of service that show care (Acts of Service)",
+            "E": "Hearing kind words (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 16,
+        "question": "What do you enjoy doing with your loved ones?",
+        "choices": {
+            "A": "Cuddling on the couch (Physical Touch)",
+            "B": "Giving and receiving gifts (Receiving Gifts)",
+            "C": "Sharing compliments (Words of Affirmation)",
+            "D": "Going on adventures together (Quality Time)",
+            "E": "Helping each other out (Acts of Service)"
+        }
+    },
+    {
+        "id": 17,
+        "question": "How do you feel most connected to your partner?",
+        "choices": {
+            "A": "Through shared experiences (Quality Time)",
+            "B": "Hearing them express their feelings (Words of Affirmation)",
+            "C": "Through small, meaningful gifts (Receiving Gifts)",
+            "D": "By feeling close physically (Physical Touch)",
+            "E": "Doing something kind without being asked (Acts of Service)"
+        }
+    },
+    {
+        "id": 18,
+        "question": "How do you express love to a friend?",
+        "choices": {
+            "A": "Offering to help when they need it (Acts of Service)",
+            "B": "Giving them a meaningful gift (Receiving Gifts)",
+            "C": "Taking them out for coffee (Quality Time)",
+            "D": "Giving them a hug or pat on the back (Physical Touch)",
+            "E": "Giving compliments (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 19,
+        "question": "When you feel stressed, what action calms you the most?",
+        "choices": {
+            "A": "A quiet walk together (Quality Time)",
+            "B": "Receiving a comforting gift (Receiving Gifts)",
+            "C": "A gentle, reassuring touch (Physical Touch)",
+            "D": "Someone giving you a hand with your work (Acts of Service)",
+            "E": "Someone telling you things will be okay (Words of Affirmation)"
+        }
+    },
+    {
+        "id": 20,
+        "question": "How do you prefer to spend quality time with loved ones?",
+        "choices": {
+            "A": "Doing fun activities together (Quality Time)",
+            "B": "Giving small, meaningful gifts (Receiving Gifts)",
+            "C": "Cuddling on the couch (Physical Touch)",
+            "D": "Talking about your day (Words of Affirmation)",
+            "E": "Helping each other out with chores (Acts of Service)"
+        }
+    },
+    {
+        "id": 21,
+        "question": "What makes you feel most supported during a hard time?",
+        "choices": {
+            "A": "Receiving encouraging words (Words of Affirmation)",
+            "B": "Receiving a thoughtful gift (Receiving Gifts)",
+            "C": "Having someone there physically (Quality Time)",
+            "D": "Someone helping you with tasks (Acts of Service)",
+            "E": "A comforting physical touch (Physical Touch)"
+        }
+    },
+    {
+        "id": 22,
+        "question": "How do you like to feel appreciated?",
+        "choices": {
+            "A": "Spending time with someone who listens (Quality Time)",
+            "B": "Receiving a small token of appreciation (Receiving Gifts)",
+            "C": "A hug or pat on the back (Physical Touch)",
+            "D": "Receiving compliments for what you’ve done (Words of Affirmation)",
+            "E": "Having someone help with your responsibilities (Acts of Service)"
+        }
+    },
+    {
+        "id": 23,
+        "question": "How do you celebrate special occasions?",
+        "choices": {
+            "A": "Giving or receiving hugs from everyone (Physical Touch)",
+            "B": "Receiving a handwritten card (Words of Affirmation)",
+            "C": "Receiving gifts that show you’re thought of (Receiving Gifts)",
+            "D": "Spending the day with loved ones (Quality Time)",
+            "E": "Having someone take care of the little things for you (Acts of Service)"
+        }
+    },
+    {
+        "id": 24,
+        "question": "What makes you feel closest to a partner?",
+        "choices": {
+            "A": "Spending uninterrupted time together (Quality Time)",
+            "B": "Cuddling or holding hands (Physical Touch)",
+            "C": "Receiving thoughtful gifts (Receiving Gifts)",
+            "D": "Having a deep conversation (Words of Affirmation)",
+            "E": "When they do something kind without being asked (Acts of Service)"
+        }
+    },
+    {
+        "id": 25,
+        "question": "When you think of a perfect day, what does it include?",
+        "choices": {
+            "A": "Sharing new experiences with someone (Quality Time)",
+            "B": "A comforting hug (Physical Touch)",
+            "C": "Receiving a small surprise gift (Receiving Gifts)",
+            "D": "Meaningful compliments from loved ones (Words of Affirmation)",
+            "E": "Someone doing something special for you (Acts of Service)"
+        }
+    }
+]

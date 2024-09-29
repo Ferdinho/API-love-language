@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cómo manejas los desacuerdos con tu pareja sobre las tareas domésticas?",
+        "choices": {
+            "A": "Ignoro el problema y espero que desaparezca",
+            "B": "Hago las tareas yo mismo(a) para mantener la paz",
+            "C": "Sugiero que repartamos las tareas equitativamente",
+            "D": "Propongo que las hagamos juntos para hacerlo divertido",
+            "E": "Insisto en que mi forma de hacer las tareas es mejor"
+        }
+    },
+    {
+        "id": 2,
+        "question": "Tú y tu amigo(a) no pueden decidir dónde cenar. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Dejo que mi amigo(a) elija el lugar",
+            "B": "Insisto en ir a mi lugar favorito",
+            "C": "Sugiero ir a un lugar que tenga platos que ambos disfrutemos",
+            "D": "Sugiero saltarnos la cena y hacer otra cosa",
+            "E": "Trato de encontrar un lugar que ambos disfrutemos por igual"
+        }
+    },
+    {
+        "id": 3,
+        "question": "En el trabajo, no estás de acuerdo con un compañero sobre cómo abordar un proyecto. ¿Cómo respondes?",
+        "choices": {
+            "A": "Mantengo mi postura e insisto en usar mi enfoque",
+            "B": "Evito expresar mi desacuerdo",
+            "C": "Estoy de acuerdo con su enfoque para evitar conflictos",
+            "D": "Sugiero que ambos incorporemos partes de nuestras ideas",
+            "E": "Propongo una reunión para combinar lo mejor de ambas ideas"
+        }
+    },
+    {
+        "id": 4,
+        "question": "Tú y tu hermano(a) están peleando por el último pedazo de pastel. ¿Qué haces?",
+        "choices": {
+            "A": "Insisto en que es mío porque lo vi primero",
+            "B": "Ofrezco compartirlo equitativamente y disfrutarlo juntos",
+            "C": "Me alejo y le dejo tenerlo",
+            "D": "Le dejo tenerlo para evitar discutir",
+            "E": "Sugiero que lo cortemos a la mitad"
+        }
+    },
+    {
+        "id": 5,
+        "question": "¿Cómo lidias con un vecino que pone música alta por la noche?",
+        "choices": {
+            "A": "Sugiero un compromiso, como bajar el volumen después de las 10 PM",
+            "B": "Le digo que lo pare de inmediato o lo reportaré",
+            "C": "Lo ignoro y espero que se detenga",
+            "D": "No digo nada para mantener la paz",
+            "E": "Toco su puerta y le propongo que acordemos horas de silencio"
+        }
+    },
+    {
+        "id": 6,
+        "question": "Tú y tu pareja no están de acuerdo sobre cómo pasar el fin de semana. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Sigo su plan para evitar conflictos",
+            "B": "Sugiero dividir el fin de semana, un día a su manera y otro a la mía",
+            "C": "Propongo actividades que ambos disfrutemos",
+            "D": "Evito discutir los planes y dejo que las cosas fluyan",
+            "E": "Insisto en hacer lo que quiero porque tenía planes primero"
+        }
+    },
+    {
+        "id": 7,
+        "question": "En una reunión familiar, estalla un acalorado debate político. ¿Cómo reaccionas?",
+        "choices": {
+            "A": "Defiendo firmemente mi punto de vista",
+            "B": "Sugiero que todos estén de acuerdo en no estar de acuerdo",
+            "C": "Animo a todos a discutir sus puntos de vista de manera calmada",
+            "D": "Me mantengo al margen del debate",
+            "E": "Estoy de acuerdo con el lado más pacífico"
+        }
+    },
+    {
+        "id": 8,
+        "question": "Un compañero de trabajo se ha atribuido el mérito de tu trabajo. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Lo confronto de inmediato y exijo el reconocimiento",
+            "B": "Hablo con él/ella en privado y sugiero compartir el crédito",
+            "C": "Le propongo que ambos recibamos reconocimiento",
+            "D": "Evito mencionarlo y sigo adelante",
+            "E": "Lo dejo pasar para evitar crear una escena"
+        }
+    },
+    {
+        "id": 9,
+        "question": "Tu pareja quiere ver una película que no te gusta. ¿Qué haces?",
+        "choices": {
+            "A": "Propongo turnarnos para elegir las películas",
+            "B": "Sugiero ver algo que ambos disfrutemos",
+            "C": "Insisto en ver lo que me gusta porque la última vez elegí yo",
+            "D": "Le dejo ver la película mientras hago otra cosa",
+            "E": "Acepto verla para hacerle feliz"
+        }
+    },
+    {
+        "id": 10,
+        "question": "Tu amigo(a) te pide ayuda para mudarse, pero tienes otros planes. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Sugiero ayudarle otro día",
+            "B": "Le ofrezco ayudar unas horas pero mantengo mis planes después",
+            "C": "Le digo que no puedo ayudar y mantengo mis planes",
+            "D": "Evito la conversación por completo",
+            "E": "Cancelo mis planes para ayudarle a mudarse"
+        }
+    },
+    {
+        "id": 11,
+        "question": "Durante un proyecto de grupo, un miembro del equipo no está cumpliendo con su parte del trabajo. ¿Qué haces?",
+        "choices": {
+            "A": "Hago trabajo extra para cubrirlo(a)",
+            "B": "Sugiero dividir el trabajo de manera más equitativa",
+            "C": "Ignoro el problema y espero que mejore",
+            "D": "Le digo al grupo que debemos reemplazarlo(a) o me encargaré del trabajo",
+            "E": "Hablo con él/ella para que todos contribuyamos por igual"
+        }
+    },
+    {
+        "id": 12,
+        "question": "Tú y tu pareja tienen diferentes opiniones sobre cómo decorar la casa. ¿Qué haces?",
+        "choices": {
+            "A": "Le dejo decorar como quiera",
+            "B": "Sugiero que cada uno decore sus propios espacios",
+            "C": "Propongo encontrar un estilo que ambos disfrutemos",
+            "D": "Evito discutirlo",
+            "E": "Insisto en decorar a mi manera"
+        }
+    },
+    {
+        "id": 13,
+        "question": "Tú y tu amigo no están de acuerdo sobre a dónde ir de vacaciones. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Sugiero dividir el viaje en dos destinos",
+            "B": "Acepto su elección para mantener la paz",
+            "C": "Insisto en mi elección porque planifiqué el viaje",
+            "D": "Trato de encontrar un lugar de vacaciones que ambos disfrutemos",
+            "E": "Le dejo decidir y me mantengo al margen"
+        }
+    },
+    {
+        "id": 14,
+        "question": "Tú y tu compañero de trabajo no están de acuerdo sobre un plazo del proyecto. ¿Cómo reaccionas?",
+        "choices": {
+            "A": "Insisto en mantener el plazo original",
+            "B": "Sugiero una extensión razonable para llegar a un compromiso",
+            "C": "Hablo con mi compañero(a) y sugiero una solución más justa",
+            "D": "Evito confrontarlo(a) y dejo que el plazo pase",
+            "E": "Acepto extender el plazo para evitar problemas"
+        }
+    },
+    {
+        "id": 15,
+        "question": "Tú y tu pareja están discutiendo sobre las finanzas. ¿Qué haces?",
+        "choices": {
+            "A": "Insisto en manejar las finanzas a mi manera",
+            "B": "Sugiero que lleguemos a un compromiso presupuestando para ambas necesidades",
+            "C": "Propongo sentarnos juntos a planificar un presupuesto",
+            "D": "Evito hablar de dinero para mantener la paz",
+            "E": "Acepto seguir su plan financiero"
+        }
+    },
+    {
+        "id": 16,
+        "question": "Un amigo(a) está molesto(a) porque llegaste tarde. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Me disculpo y asumo toda la culpa",
+            "B": "Sugiero que lleguemos a un acuerdo para evitar retrasos futuros",
+        "C": "Hablo sobre el problema y busco una forma de evitarlo en el futuro",
+        "D": "Defiendo mis razones para llegar tarde",
+        "E": "Evito mencionarlo y espero que lo olvide"
+        }
+    },
+    {
+        "id": 17,
+        "question": "Tu jefe te asigna una tarea que consideras injusta. ¿Cómo reaccionas?",
+        "choices": {
+            "A": "Le digo a mi jefe que no es parte de mi trabajo y me niego",
+            "B": "Sugiero un compromiso, como compartir la tarea con otros",
+            "C": "Hablo con mi jefe y sugiero una solución más justa",
+            "D": "No digo nada y simplemente lo hago",
+            "E": "Acepto la tarea para evitar conflictos"
+        }
+    },
+    {
+        "id": 18,
+        "question": "Durante una discusión acalorada, ¿cómo manejas el conflicto?",
+        "choices": {
+            "A": "Insisto en mi punto hasta que la otra persona esté de acuerdo",
+            "B": "Sugiero que ambos cedamos un poco para resolverlo",
+            "C": "Trato de discutir el problema de manera calmada y encontrar una solución",
+            "D": "Evito decir algo para calmar la situación",
+            "E": "Estoy de acuerdo con la otra persona para terminar la discusión"
+        }
+    },
+    {
+        "id": 19,
+        "question": "¿Cómo lidias con un(a) amigo(a) que llega constantemente tarde?",
+        "choices": {
+            "A": "Evito mencionarlo y simplemente lo acepto",
+            "B": "Sugiero que nos encontremos a mitad de camino en cuanto al horario",
+            "C": "Le hablo sobre por qué la puntualidad es importante para mí",
+            "D": "Insisto en que debe ser puntual o dejaré de reunirme con él/ella",
+            "E": "Lo dejo pasar cada vez para evitar la confrontación"
+        }
+    },
+    {
+        "id": 20,
+        "question": "Tú y tu compañero de cuarto no están de acuerdo sobre cómo dividir las facturas del hogar. ¿Cómo lo resuelves?",
+        "choices": {
+            "A": "Sugiero que cada uno pague por lo que usa",
+            "B": "Evito hablar de finanzas para mantener la paz",
+            "C": "Le dejo decidir cómo dividir las facturas",
+            "D": "Propongo que trabajemos juntos para encontrar una división justa",
+            "E": "Insisto en pagar solo mi parte"
+        }
+    },
+    {
+        "id": 21,
+        "question": "Tú y tu pareja discuten sobre dónde pasar las vacaciones. ¿Cómo lo resuelves?",
+        "choices": {
+            "A": "Acepto ir donde él/ella quiera",
+            "B": "Insisto en ir a la casa de mi familia",
+            "C": "Evito hablar del tema y espero que se resuelva solo",
+            "D": "Sugiero dividir el tiempo entre ambas familias",
+            "E": "Propongo un plan que nos haga felices a ambos"
+        }
+    },
+    {
+        "id": 22,
+        "question": "Tú y un(a) colega quieren ambos liderar un nuevo proyecto. ¿Cómo lo manejas?",
+        "choices": {
+            "A": "Le dejo tomar la dirección para evitar conflictos",
+            "B": "Propongo que encontremos al mejor líder basado en habilidades",
+            "C": "Insisto en liderar el proyecto yo mismo(a)",
+            "D": "Retrocedo y le dejo tomar la dirección",
+            "E": "Sugiero que co-lideremos el proyecto"
+        }
+    },
+    {
+        "id": 23,
+        "question": "Un familiar sigue pidiendo dinero prestado sin devolverlo. ¿Cómo reaccionas?",
+        "choices": {
+            "A": "Evito hablar de ello y simplemente lo acepto",
+            "B": "Sugiero un plan de pago con el que ambos estemos de acuerdo",
+            "C": "Le hablo sobre cómo me está afectando y encontramos una solución",
+            "D": "Lo dejo pasar para evitar tensiones en la familia",
+            "E": "Insisto en que me pague inmediatamente"
+        }
+    },
+    {
+        "id": 24,
+        "question": "Un colega no está de acuerdo con tu enfoque de una tarea. ¿Cómo respondes?",
+        "choices": {
+            "A": "Estoy de acuerdo con él/ella para mantener las cosas tranquilas",
+            "B": "Evito discutirlo y sigo con su idea",
+            "C": "Sugiero que encontremos un punto medio con nuestras ideas",
+            "D": "Hablo con él/ella para encontrar un enfoque beneficioso para ambos",
+            "E": "Insisto en hacerlo a mi manera"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Tu amigo(a) tomó prestada tu chaqueta favorita sin pedir permiso. ¿Qué haces?",
+        "choices": {
+            "A": "Evito confrontarlo(a) al respecto",
+            "B": "Exijo que me la devuelva de inmediato",
+            "C": "Lo dejo pasar y no digo nada para mantener la paz",
+            "D": "Le sugiero que la próxima vez me la pida prestada",
+            "E": "Le hablo sobre por qué es importante pedirla primero"
+        }
+    }
+]

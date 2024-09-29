@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "How do you handle disagreements with your partner over household chores?",
+        "choices": {
+            "A": "I ignore the issue and hope it goes away (Avoidance)",
+            "B": "I do the chores myself to keep the peace (Accommodation)",
+            "C": "I suggest we split the chores evenly (Compromise)",
+            "D": "I propose we work together on the chores to make it fun (Collaboration)",
+            "E": "I insist that my way of doing chores is better (Competition)"
+        }
+    },
+    {
+        "id": 2,
+        "question": "You and your friend can't decide where to go for dinner. How do you handle it?",
+        "choices": {
+            "A": "I let my friend choose the place (Accommodation)",
+            "B": "I push to go to my favorite spot (Competition)",
+            "C": "I suggest we go somewhere that has both our favorite dishes (Compromise)",
+            "D": "I suggest skipping dinner and doing something else (Avoidance)",
+            "E": "I try to find a place we both enjoy equally (Collaboration)"
+        }
+    },
+    {
+        "id": 3,
+        "question": "At work, you disagree with a coworker about how to approach a project. How do you respond?",
+        "choices": {
+            "A": "I stand my ground and insist on using my approach (Competition)",
+            "B": "I avoid bringing up my disagreement (Avoidance)",
+            "C": "I agree with their approach to avoid conflict (Accommodation)",
+            "D": "I suggest we each incorporate parts of our ideas (Compromise)",
+            "E": "I propose a meeting to combine the best of both ideas (Collaboration)"
+        }
+    },
+    {
+        "id": 4,
+        "question": "You and your sibling are fighting over who gets the last piece of cake. What do you do?",
+        "choices": {
+            "A": "I insist it's mine because I saw it first (Competition)",
+            "B": "I offer to share it equally and enjoy it together (Collaboration)",
+            "C": "I walk away and let them have it (Avoidance)",
+            "D": "I let them have it to avoid arguing (Accommodation)",
+            "E": "I suggest we cut it in half (Compromise)"
+        }
+    },
+    {
+        "id": 5,
+        "question": "How do you deal with a neighbor who plays loud music at night?",
+        "choices": {
+            "A": "I suggest a compromise, like lowering the volume after 10 PM (Compromise)",
+            "B": "I tell them to stop immediately or I’ll report it (Competition)",
+            "C": "I ignore it and hope they stop (Avoidance)",
+            "D": "I don't say anything to keep things peaceful (Accommodation)",
+            "E": "I knock on their door and ask if we can agree on quiet hours (Collaboration)"
+        }
+    },
+    {
+        "id": 6,
+        "question": "You and your partner disagree on how to spend the weekend. How do you handle it?",
+        "choices": {
+            "A": "I go along with their plan to avoid conflict (Accommodation)",
+            "B": "I suggest splitting the weekend, one day their way and one day my way (Compromise)",
+            "C": "I propose activities we both enjoy (Collaboration)",
+            "D": "I avoid discussing plans and just go with the flow (Avoidance)",
+            "E": "I insist we do what I want because I had plans first (Competition)"
+        }
+    },
+    {
+        "id": 7,
+        "question": "At a family gathering, a heated political debate breaks out. How do you react?",
+        "choices": {
+            "A": "I strongly argue for my point of view (Competition)",
+            "B": "I suggest everyone agree to disagree (Compromise)",
+            "C": "I encourage everyone to calmly discuss their views (Collaboration)",
+            "D": "I stay out of the debate entirely (Avoidance)",
+            "E": "I agree with whatever side is more peaceful (Accommodation)"
+        }
+    },
+    {
+        "id": 8,
+        "question": "Your coworker took credit for your work. How do you handle it?",
+        "choices": {
+            "A": "I immediately confront them and demand credit (Competition)",
+            "B": "I talk to them privately and suggest sharing credit (Compromise)",
+            "C": "I approach them to discuss how we can both get recognition (Collaboration)",
+            "D": "I avoid bringing it up and move on (Avoidance)",
+            "E": "I let it slide to avoid making a scene (Accommodation)"
+        }
+    },
+    {
+        "id": 9,
+        "question": "Your partner wants to watch a movie you don’t like. What do you do?",
+        "choices": {
+            "A": "I propose taking turns picking movies (Collaboration)",
+            "B": "I suggest watching something we both enjoy (Compromise)",
+            "C": "I insist we watch what I like because I picked last time (Competition)",
+            "D": "I let them watch it while I do something else (Avoidance)",
+            "E": "I agree to watch it to make them happy (Accommodation)"
+        }
+    },
+    {
+        "id": 10,
+        "question": "Your friend asks for help moving, but you have other plans. How do you handle it?",
+        "choices": {
+            "A": "I suggest helping them another day (Compromise)",
+            "B": "I offer to help for a few hours but keep my plans afterward (Collaboration)",
+            "C": "I tell them I can’t help and stick to my plans (Competition)",
+            "D": "I avoid the conversation altogether (Avoidance)",
+            "E": "I cancel my plans to help them move (Accommodation)"
+        }
+    },
+    {
+        "id": 11,
+        "question": "During a group project, a team member isn’t pulling their weight. What do you do?",
+        "choices": {
+            "A": "I do extra work to cover for them (Accommodation)",
+            "B": "I suggest splitting the work more evenly (Compromise)",
+            "C": "I ignore the issue and hope it improves (Avoidance)",
+            "D": "I tell the group we need to replace them or I’ll take over (Competition)",
+            "E": "I talk to them about how we can all contribute equally (Collaboration)"
+        }
+    },
+    {
+        "id": 12,
+        "question": "You and your partner have different opinions about how to decorate the house. What do you do?",
+        "choices": {
+            "A": "I let them decorate as they please (Accommodation)",
+            "B": "I suggest we each decorate our own areas (Compromise)",
+            "C": "I propose finding a style we both like (Collaboration)",
+            "D": "I avoid discussing it (Avoidance)",
+            "E": "I insist on decorating the way I want (Competition)"
+        }
+    },
+    {
+        "id": 13,
+        "question": "Your friend and you disagree on where to go on vacation. How do you handle it?",
+        "choices": {
+            "A": "I suggest splitting the trip into two destinations (Compromise)",
+            "B": "I go with their choice to keep the peace (Accommodation)",
+            "C": "I insist on my choice because I planned the trip (Competition)",
+            "D": "I try to find a vacation spot we both enjoy (Collaboration)",
+            "E": "I let them decide and stay out of it (Avoidance)"
+        }
+    },
+    {
+        "id": 14,
+        "question": "You and your coworker clash on a project deadline. How do you respond?",
+        "choices": {
+            "A": "I insist on sticking to the original deadline (Competition)",
+            "B": "I suggest a reasonable extension to meet halfway (Compromise)",
+            "C": "I talk to my coworker and suggest a fairer solution (Collaboration)",
+            "D": "I avoid confronting them and let the deadline slide (Avoidance)",
+            "E": "I agree to extend the deadline to avoid issues (Accommodation)"
+        }
+    },
+    {
+        "id": 15,
+        "question": "You and your partner are arguing over finances. What do you do?",
+        "choices": {
+            "A": "I insist on managing the finances my way (Competition)",
+            "B": "I suggest we compromise by budgeting for both our needs (Compromise)",
+            "C": "I propose sitting down and planning a budget together (Collaboration)",
+            "D": "I avoid talking about money to keep the peace (Avoidance)",
+            "E": "I agree to follow their financial plan (Accommodation)"
+        }
+    },
+    {
+        "id": 16,
+        "question": "A friend is upset because you were late to meet them. How do you handle it?",
+        "choices": {
+            "A": "I apologize and take all the blame (Accommodation)",
+            "B": "I suggest we meet in the middle to avoid future delays (Compromise)",
+            "C": "I talk it through and find a way to prevent it next time (Collaboration)",
+            "D": "I defend my reasons for being late (Competition)",
+            "E": "I avoid bringing it up and hope they forget (Avoidance)"
+        }
+    },
+    {
+        "id": 17,
+        "question": "Your boss gives you a task you feel is unfair. How do you react?",
+        "choices": {
+            "A": "I tell my boss it's not part of my job and refuse (Competition)",
+            "B": "I suggest a compromise, like sharing the task with others (Compromise)",
+            "C": "I talk to my boss and suggest a fairer solution (Collaboration)",
+            "D": "I don’t say anything and just do it (Avoidance)",
+            "E": "I accept the task to avoid conflict (Accommodation)"
+        }
+    },
+    {
+        "id": 18,
+        "question": "During a heated discussion, how do you handle conflict?",
+        "choices": {
+            "A": "I push my point until the other person agrees (Competition)",
+            "B": "I suggest we both give a little to resolve it (Compromise)",
+            "C": "I try to discuss the issue calmly and find a solution (Collaboration)",
+            "D": "I avoid saying anything to calm things down (Avoidance)",
+            "E": "I agree with the other person to end the argument (Accommodation)"
+        }
+    },
+    {
+        "id": 19,
+        "question": "How do you deal with a friend who is consistently late?",
+        "choices": {
+            "A": "I avoid bringing it up and just deal with it (Avoidance)",
+            "B": "I suggest meeting them halfway in timing (Compromise)",
+            "C": "I talk to them about why punctuality matters to me (Collaboration)",
+            "D": "I insist that they need to be on time or I’ll stop meeting them (Competition)",
+            "E": "I let it go every time to avoid confrontation (Accommodation)"
+        }
+    },
+    {
+        "id": 20,
+        "question": "You and your roommate disagree on how to split household bills. How do you solve it?",
+        "choices": {
+            "A": "I suggest we each pay for what we use (Compromise)",
+            "B": "I avoid talking about finances to keep the peace (Avoidance)",
+            "C": "I let them decide how we split the bills (Accommodation)",
+            "D": "I propose working together to find a fair split (Collaboration)",
+            "E": "I insist on paying only my share (Competition)"
+        }
+    },
+    {
+        "id": 21,
+        "question": "You and your partner argue over where to spend the holidays. How do you resolve it?",
+        "choices": {
+            "A": "I agree to go wherever they want (Accommodation)",
+            "B": "I insist on going to my family’s place (Competition)",
+            "C": "I avoid talking about it and hope it works itself out (Avoidance)",
+            "D": "I suggest splitting the time between both families (Compromise)",
+            "E": "I try to find a plan that makes both of us happy (Collaboration)"
+        }
+    },
+    {
+        "id": 22,
+        "question": "You and a colleague both want to lead a new project. How do you handle it?",
+        "choices": {
+            "A": "I let them take the lead to avoid conflict (Accommodation)",
+            "B": "I propose we find the best fit based on skills (Collaboration)",
+            "C": "I insist on leading the project myself (Competition)",
+            "D": "I step back and let them take the lead (Avoidance)",
+            "E": "I suggest we co-lead the project (Compromise)"
+        }
+    },
+    {
+        "id": 23,
+        "question": "A family member keeps borrowing money without returning it. How do you react?",
+        "choices": {
+            "A": "I avoid talking about it and just deal with it (Avoidance)",
+            "B": "I suggest a repayment plan we both agree on (Compromise)",
+            "C": "I talk to them about how it’s impacting me and find a solution (Collaboration)",
+            "D": "I let it go to avoid tension in the family (Accommodation)",
+            "E": "I insist they pay me back immediately (Competition)"
+        }
+    },
+    {
+        "id": 24,
+        "question": "A colleague disagrees with your approach to a task. How do you respond?",
+        "choices": {
+            "A": "I agree with them to keep things smooth (Accommodation)",
+            "B": "I avoid discussing it and just go with their idea (Avoidance)",
+            "C": "I suggest meeting in the middle with our ideas (Compromise)",
+            "D": "I talk to them to find a mutually beneficial approach (Collaboration)",
+            "E": "I insist on doing it my way (Competition)"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Your friend borrowed your favorite jacket without asking. What do you do?",
+        "choices": {
+            "A": "I avoid confronting them about it (Avoidance)",
+            "B": "I demand they return it immediately (Competition)",
+            "C": "I let it go and say nothing to keep the peace (Accommodation)",
+            "D": "I suggest that they ask next time and I’ll lend it (Compromise)",
+            "E": "I talk to them about why it’s important to ask first (Collaboration)"
+        }
+    }
+]

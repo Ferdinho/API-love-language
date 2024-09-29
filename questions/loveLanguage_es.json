@@ -1,0 +1,277 @@
+[
+    {
+        "id": 1,
+        "question": "Después de una larga semana, ¿qué te hace sentir más apreciado(a)?",
+        "choices": {
+            "A": "Pasar todo el día haciendo actividades juntos",
+            "B": "Un abrazo cálido de un ser querido",
+            "C": "Escuchar a tu pareja decir que está orgulloso(a) de ti",
+            "D": "Cuando alguien te ayuda con las tareas",
+            "E": "Recibir un regalo sorpresa, como un libro que realmente querías"
+        }
+    },
+    {
+        "id": 2,
+        "question": "Cuando te sientes triste, ¿qué te levanta el ánimo?",
+        "choices": {
+            "A": "Un mensaje cariñoso de un ser querido",
+            "B": "Un regalo inesperado, como flores",
+            "C": "Que alguien te escuche mientras te desahogas",
+            "D": "Un abrazo reconfortante",
+            "E": "Un amigo que se pasa por tu casa para una charla rápida"
+        }
+    },
+    {
+        "id": 3,
+        "question": "En una relación, ¿cómo te gusta expresar amor?",
+        "choices": {
+            "A": "Comprarles su golosina favorita",
+            "B": "Planear una escapada sorpresa",
+            "C": "Darles un masaje después de un largo día",
+            "D": "Hacer tareas por ellos sin que te lo pidan",
+            "E": "Escribir pequeñas notas para que las encuentren"
+        }
+    },
+    {
+        "id": 4,
+        "question": "¿Qué te hace sentir más especial en tu cumpleaños?",
+        "choices": {
+            "A": "Una tarjeta sincera expresando amor",
+            "B": "Un abrazo largo y cálido de alguien que amas",
+            "C": "Pasar tiempo de calidad con amigos cercanos",
+            "D": "Un día en el que tu pareja haga todo por ti",
+            "E": "Una fiesta sorpresa organizada solo para ti"
+        }
+    },
+    {
+        "id": 5,
+        "question": "¿Cómo te sientes amado(a) en un día difícil?",
+        "choices": {
+            "A": "Un café sorpresa que te llevan",
+            "B": "Un mensaje de apoyo de un ser querido",
+            "C": "Una noche viendo tu programa favorito juntos",
+            "D": "Un abrazo reconfortante cuando llegas a casa",
+            "E": "Un pequeño regalo que muestra que les importas"
+        }
+    },
+    {
+        "id": 6,
+        "question": "En las reuniones familiares, ¿qué te hace sentir más conectado(a)?",
+        "choices": {
+            "A": "Recibir un regalo de un pariente",
+            "B": "El afecto físico como abrazos",
+            "C": "Ayudar a preparar la comida juntos",
+            "D": "Compartir historias y risas juntos",
+            "E": "Recibir cumplidos de los miembros de la familia"
+        }
+    },
+    {
+        "id": 7,
+        "question": "¿Qué acción de tu pareja te haría sentir más querido(a)?",
+        "choices": {
+            "A": "Tomarse de la mano mientras ven una película",
+            "B": "Pasar todo un fin de semana juntos",
+            "C": "Una conversación sincera sobre su futuro",
+            "D": "Sorprenderte con un regalo significativo",
+            "E": "Cocinar tu comida favorita para ti"
+        }
+    },
+    {
+        "id": 8,
+        "question": "¿Cómo prefieres celebrar tus logros?",
+        "choices": {
+            "A": "Salir a cenar con seres queridos",
+            "B": "Recibir un regalo de felicitación",
+            "C": "Un abrazo de felicitación de un amigo cercano",
+            "D": "Escuchar palabras de elogio de los amigos",
+            "E": "Que alguien te ayude a planear la celebración"
+        }
+    },
+    {
+        "id": 9,
+        "question": "¿Qué te hace sentir apreciado(a) en el trabajo?",
+        "choices": {
+            "A": "Un reconocimiento en una reunión de equipo",
+            "B": "Recibir un pequeño regalo por tu esfuerzo",
+            "C": "Ayuda con un proyecto importante",
+            "D": "Una palmada en la espalda o un abrazo de un colega",
+            "E": "Pasar tiempo con colegas durante los descansos"
+        }
+    },
+    {
+        "id": 10,
+        "question": "¿Cómo te gusta recibir apoyo cuando te sientes abrumado(a)?",
+        "choices": {
+            "A": "Un abrazo reconfortante",
+            "B": "Un pequeño regalo para animarte",
+            "C": "Palabras de aliento de seres queridos",
+            "D": "Que alguien te ayude con tus tareas",
+            "E": "Pasar tiempo de calidad charlando"
+        }
+    },
+    {
+        "id": 11,
+        "question": "¿Qué hace que una cita romántica sea especial para ti?",
+        "choices": {
+            "A": "Un regalo sorpresa que muestra que te conocen bien",
+            "B": "Explorar nuevos lugares juntos",
+            "C": "Acurrucarse durante una película",
+            "D": "Que tu pareja se encargue de toda la planificación",
+            "E": "Una conversación sincera durante la cena"
+        }
+    },
+    {
+        "id": 12,
+        "question": "¿Qué aprecias más durante las fiestas?",
+        "choices": {
+            "A": "Abrazos y afecto de los seres queridos",
+            "B": "Recibir regalos de la familia",
+            "C": "Compartir comidas e historias",
+            "D": "Palabras de amor y gratitud",
+            "E": "Ayuda de los miembros de la familia con los preparativos"
+        }
+    },
+    {
+        "id": 13,
+        "question": "¿Cómo te sientes más amado(a) cuando estás triste?",
+        "choices": {
+            "A": "Un regalo sorpresa que ilumina tu día",
+            "B": "Alguien que te anime",
+            "C": "Pasar tiempo juntos",
+            "D": "Consuelo físico, como un abrazo",
+            "E": "Un gesto considerado, como cocinar para ti"
+        }
+    },
+    {
+        "id": 14,
+        "question": "¿Qué pequeño gesto tiene un gran impacto en ti?",
+        "choices": {
+            "A": "Un pequeño regalo solo porque sí",
+            "B": "Pasar el día haciendo algo divertido juntos",
+            "C": "Ayudarte con un proyecto",
+            "D": "Un toque reconfortante durante un momento difícil",
+            "E": "Una nota que te dejan"
+        }
+    },
+    {
+        "id": 15,
+        "question": "Cuando piensas en los lenguajes del amor, ¿cuál resuena más contigo?",
+        "choices": {
+            "A": "Regalos significativos que tengan valor emocional",
+            "B": "Pasar tiempo de calidad juntos",
+            "C": "Sentir una conexión física cercana",
+            "D": "Actos de servicio que demuestren cuidado",
+            "E": "Escuchar palabras amables"
+        }
+    },
+    {
+        "id": 16,
+        "question": "¿Qué disfrutas hacer con tus seres queridos?",
+        "choices": {
+            "A": "Acurrucarse en el sofá",
+            "B": "Dar y recibir regalos",
+            "C": "Compartir cumplidos",
+            "D": "Salir de aventuras juntos",
+            "E": "Ayudarse mutuamente"
+        }
+    },
+    {
+        "id": 17,
+        "question": "¿Cómo te sientes más conectado(a) a tu pareja?",
+        "choices": {
+            "A": "A través de experiencias compartidas",
+            "B": "Escuchar que ellos o ellas expresan sus sentimientos",
+            "C": "A través de pequeños regalos significativos",
+            "D": "Sintiendo una cercanía física",
+            "E": "Haciendo algo amable sin que se lo pidan"
+        }
+    },
+    {
+        "id": 18,
+        "question": "¿Cómo expresas amor a un amigo?",
+        "choices": {
+            "A": "Ofreciendo ayuda cuando la necesitan",
+            "B": "Dándoles un regalo significativo",
+            "C": "Llevándolos a tomar un café",
+            "D": "Dándoles un abrazo o una palmada en la espalda",
+            "E": "Dándoles cumplidos"
+        }
+    },
+    {
+        "id": 19,
+        "question": "Cuando te sientes estresado(a), ¿qué acción te calma más?",
+        "choices": {
+            "A": "Un paseo tranquilo juntos",
+            "B": "Recibir un regalo reconfortante",
+            "C": "Un toque suave y tranquilizador",
+            "D": "Que alguien te ayude con tu trabajo",
+            "E": "Que alguien te diga que todo estará bien"
+        }
+    },
+    {
+        "id": 20,
+        "question": "¿Cómo prefieres pasar tiempo de calidad con tus seres queridos?",
+        "choices": {
+            "A": "Haciendo actividades divertidas juntos",
+            "B": "Dando pequeños regalos significativos",
+            "C": "Acurrucarse en el sofá",
+            "D": "Hablar sobre cómo fue tu día",
+            "E": "Ayudándose con las tareas diarias"
+        }
+    },
+    {
+        "id": 21,
+        "question": "¿Qué te hace sentir más apoyado(a) en un momento difícil?",
+        "choices": {
+            "A": "Recibir palabras de aliento",
+            "B": "Recibir un regalo significativo",
+            "C": "Tener a alguien físicamente allí para ti",
+            "D": "Que alguien te ayude con las tareas",
+            "E": "Un toque físico reconfortante"
+        }
+    },
+    {
+        "id": 22,
+        "question": "¿Cómo te gusta sentirte apreciado(a)?",
+        "choices": {
+            "A": "Pasar tiempo con alguien que te escuche",
+            "B": "Recibir una pequeña muestra de agradecimiento",
+            "C": "Un abrazo o una palmada en la espalda",
+            "D": "Recibir cumplidos por lo que has hecho",
+            "E": "Que alguien te ayude con tus responsabilidades"
+        }
+    },
+    {
+        "id": 23,
+        "question": "¿Cómo celebras las ocasiones especiales?",
+        "choices": {
+            "A": "Dar o recibir abrazos de todos",
+            "B": "Recibir una tarjeta escrita a mano",
+            "C": "Recibir regalos que muestran que piensan en ti",
+            "D": "Pasar el día con seres queridos",
+            "E": "Que alguien se encargue de los pequeños detalles por ti"
+        }
+    },
+    {
+        "id": 24,
+        "question": "¿Qué te hace sentir más cercano(a) a tu pareja?",
+        "choices": {
+            "A": "Pasar tiempo juntos sin interrupciones",
+            "B": "Acurrucarse o tomarse de las manos",
+            "C": "Recibir regalos significativos",
+            "D": "Tener una conversación profunda",
+            "E": "Cuando hacen algo amable sin que se lo pidas"
+        }
+    },
+    {
+        "id": 25,
+        "question": "Cuando piensas en un día perfecto, ¿qué incluiría?",
+        "choices": {
+            "A": "Compartir nuevas experiencias con alguien",
+            "B": "Un abrazo reconfortante",
+            "C": "Recibir un pequeño regalo sorpresa",
+            "D": "Cumplidos significativos de tus seres queridos",
+            "E": "Que alguien haga algo especial por ti"
+        }
+    }
+]
