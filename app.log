@@ -3736,3 +3736,9 @@
 {"level":"info","message":"Connection closed. Active connections: 1","timestamp":"2024-09-29T21:26:22.129Z"}
 {"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-29T21:26:27.140Z"}
 {"level":"info","message":"Received SIGINT. Shutting down gracefully...","timestamp":"2024-09-29T22:16:54.409Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2024-09-29T22:36:18.322Z"}
+{"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-29T22:36:30.140Z"}
+{"body":{},"headers":{"accept":"*/*","host":"localhost:3000","user-agent":"curl/8.8.0","x-api-key":"your-secure-api-key"},"level":"info","message":"Incoming request","method":"GET","timestamp":"2024-09-29T22:36:30.169Z","url":"/v1/en/love-language"}
+{"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-29T22:36:30.196Z"}
+{"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-29T22:37:03.379Z"}
+{"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-29T22:37:03.384Z"}
