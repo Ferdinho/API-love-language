@@ -19,6 +19,15 @@ let activeConnections = 0;
 // This variable must be defined at the top level so it is accessible in the shutdown function
 let server;
 
+const answersDir = path.join(__dirname, 'answers');
+fs.readdir(answersDir, (err, files) => {
+    if (err) {
+        logger.error(`Unable to read answers directory: ${err.message}`);
+    } else {
+        logger.info(`Files in answers directory: ${files}`);
+    }
+});
+
 function gracefulShutdown(signal) {
     logger.info(`Received ${signal}. Shutting down gracefully...`);
     
@@ -41,7 +50,6 @@ function gracefulShutdown(signal) {
 // Listen for termination signals (SIGTERM, SIGINT)
 process.on('SIGTERM', gracefulShutdown);
 process.on('SIGINT', gracefulShutdown);
-
 
 // Create a custom counter metric
 const counter = new client.Counter({
@@ -186,10 +194,8 @@ app.use((req, res, next) => {
     next();
 });
 
-// Function to load files with enhanced logging and error handling
-function loadDetails(filePath) {
-    const fullPath = path.join(__dirname, filePath);  // Use __dirname to get the absolute path
-    logger.info(`Loading file from: ${fullPath}`);
+function loadDetails(fullPath) {
+    logger.info(`Loading file from: ${fullPath}`);  // The full path is already passed
 
     if (!fs.existsSync(fullPath)) {
         const errorMessage = `File not found at path: ${fullPath}`;
@@ -198,8 +204,8 @@ function loadDetails(filePath) {
     }
 
     try {
-        const data = fs.readFileSync(fullPath, 'utf8');  // Read file synchronously
-        return JSON.parse(data);  // Return parsed JSON data
+        const data = fs.readFileSync(fullPath, 'utf8');
+        return JSON.parse(data);
     } catch (error) {
         const errorMessage = `Failed to load or parse the file at ${fullPath}: ${error.message}`;
         logger.error(errorMessage);
@@ -321,7 +327,8 @@ app.post('/v1/:languageCode/submit-love-language-answers', (req, res) => {
         logger.info(`Loaded mapping for language: ${languageCode}`);
 
         // Dynamically set the path based on language code
-        const detailsFilePath = `./answers/loveLanguage_${languageCode}.json`;
+        const detailsFilePath = path.join(__dirname, 'answers', `conflictManagement_${languageCode}.json`);
+        logger.info(`Loading file from: ${detailsFilePath}`);
 
         // Load the corresponding language file
         let loveLanguageDetails;
@@ -489,9 +496,8 @@ app.post('/v1/:languageCode/submit-conflict-answers', (req, res) => {
         logger.info(`Loaded mapping for language: ${languageCode}`);
 
         // Dynamically set the path based on language code
-        const detailsFilePath = `./answers/conflictManagement_${languageCode}.json`;
+        const detailsFilePath = path.join(__dirname, 'answers', `conflictManagement_${languageCode}.json`);
         logger.info(`Loading file from: ${detailsFilePath}`);
-
 
         // Load the corresponding language file
         let conflictManagementDetails;
