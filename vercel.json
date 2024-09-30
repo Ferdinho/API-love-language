@@ -5,9 +5,5 @@
     ],
     "routes": [
       { "src": "/v1/(.*)", "dest": "index.js" }
-    ],
-    "assets": [
-      { "src": "answers/*", "dest": "answers" },
-      { "src": "questions/*", "dest": "questions" }
     ]
   }  
