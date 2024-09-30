@@ -49,14 +49,14 @@ const counter = new client.Counter({
     help: 'Custom metric to count the total number of requests',
 });
 
-// // Middleware to check for API key
-// app.use((req, res, next) => {
-//     const apiKey = req.headers['x-api-key']; // Look for 'x-api-key' in request headers
-//     if (!apiKey || apiKey !== process.env.API_KEY) {
-//         return res.status(403).json({ error: 'Forbidden: Invalid API Key' });
-//     }
-//     next();
-// });
+// Middleware to check for API key
+app.use((req, res, next) => {
+    const apiKey = req.headers['x-api-key']; // Look for 'x-api-key' in request headers
+    if (!apiKey || apiKey !== process.env.API_KEY) {
+        return res.status(403).json({ error: 'Forbidden: Invalid API Key' });
+    }
+    next();
+});
 
 // Increment the counter for each request
 app.use((req, res, next) => {
