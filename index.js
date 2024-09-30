@@ -490,6 +490,8 @@ app.post('/v1/:languageCode/submit-conflict-answers', (req, res) => {
 
         // Dynamically set the path based on language code
         const detailsFilePath = `./answers/conflictManagement_${languageCode}.json`;
+        logger.info(`Loading file from: ${detailsFilePath}`);
+
 
         // Load the corresponding language file
         let conflictManagementDetails;
