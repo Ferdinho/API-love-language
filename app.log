@@ -3745,3 +3745,15 @@
 {"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-29T23:12:02.617Z"}
 {"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-29T23:12:02.632Z"}
 {"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-29T23:12:02.634Z"}
+{"level":"info","message":"Received SIGINT. Shutting down gracefully...","timestamp":"2024-09-30T01:41:35.367Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2024-09-30T01:41:41.984Z"}
+{"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-30T01:42:01.246Z"}
+{"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-30T01:42:01.253Z"}
+{"level":"info","message":"New connection established. Active connections: 1","timestamp":"2024-09-30T01:42:01.254Z"}
+{"body":{"answers":[{"answer":"a","questionId":1},{"answer":"a","questionId":2},{"answer":"a","questionId":3},{"answer":"C","questionId":4},{"answer":"c","questionId":5},{"answer":"d","questionId":6},{"answer":"c","questionId":7},{"answer":"d","questionId":8},{"answer":"D","questionId":9},{"answer":"a","questionId":10},{"answer":"A","questionId":11},{"answer":"c","questionId":12},{"answer":"d","questionId":13},{"answer":"B","questionId":14},{"answer":"b","questionId":15},{"answer":"d","questionId":16},{"answer":"E","questionId":17},{"answer":"C","questionId":18},{"answer":"D","questionId":19},{"answer":"A","questionId":20},{"answer":"e","questionId":21},{"answer":"B","questionId":22},{"answer":"d","questionId":23},{"answer":"D","questionId":24},{"answer":"E","questionId":25}]},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"1171","content-type":"application/json","host":"localhost:3000","postman-token":"4afce151-3549-4132-b7eb-bcef03dad2e1","user-agent":"PostmanRuntime/7.42.0","x-api-key":"your-secure-api-key"},"level":"info","message":"Incoming request","method":"POST","timestamp":"2024-09-30T01:42:31.076Z","url":"/v1/en/submit-conflict-answers"}
+{"level":"info","message":"Loaded mapping for language: en","timestamp":"2024-09-30T01:42:31.104Z"}
+{"level":"info","message":"Loading file from: C:\\Users\\Ferdinand Tembo\\Downloads\\Documents\\love-language-api\\answers\\conflictManagement_en.json","timestamp":"2024-09-30T01:42:31.104Z"}
+{"level":"info","message":"Loaded conflict management details for language: en","timestamp":"2024-09-30T01:42:31.108Z"}
+{"Accommodation":"2","Avoidance":"1","Collaboration":"4","Competition":"5","Compromise":"3","level":"info","message":"Style lookup map for language: en","timestamp":"2024-09-30T01:42:31.109Z"}
+{"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-30T01:42:36.124Z"}
+{"level":"info","message":"Received SIGINT. Shutting down gracefully...","timestamp":"2024-09-30T01:53:25.761Z"}

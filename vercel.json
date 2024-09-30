@@ -4,7 +4,26 @@
       { "src": "index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "index.js" }
+      {
+        "src": "/v1/:languageCode/love-language",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/v1/:languageCode/conflict-management",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/debug/questions",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/answers/(.*)",
+        "dest": "/answers/$1"
+      },
+      {
+        "src": "/questions/(.*)",
+        "dest": "/questions/$1"
+      }
     ]
-  }
+}
   
