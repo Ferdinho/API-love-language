@@ -7,6 +7,7 @@ const dotenv = require('dotenv'); // Environment variables
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const client = require('prom-client');
+const axios = require('axios'); // Make sure to import axios at the top of the file
 const app = express();
 const port = process.env.PORT || 3000; // Use environment variable or default to 8080
 
@@ -427,7 +428,7 @@ app.post('/v1/:languageCode/submit-love-language-answers', (req, res) => {
 });
 
 // Conflict Management Route for submitting answers
-app.post('/v1/:languageCode/submit-conflict-answers', (req, res) => {
+app.post('/v1/:languageCode/submit-conflict-answers', async (req, res) => {
     const { answers } = req.body;  // Expecting answers in the request body
     const { languageCode } = req.params;  // Extract the language code from the URL
 
@@ -495,14 +496,15 @@ app.post('/v1/:languageCode/submit-conflict-answers', (req, res) => {
         const conflictManagementMapping = require('./conflictManagementMapping')(languageCode);
         logger.info(`Loaded mapping for language: ${languageCode}`);
 
-        // Dynamically set the path based on language code
-        const detailsFilePath = path.join(__dirname, 'public', 'answers', `conflictManagement_${languageCode}.json`);
-        logger.info(`Loading file from: ${detailsFilePath}`);
+        // Construct the URL to fetch the conflict management details file
+        const fileUrl = `https://love-language-99u73gmmy-luminaway-solutions-projects.vercel.app/answers/conflictManagement_${languageCode}.json`;
+        logger.info(`Loading file from: ${fileUrl}`);
 
-        // Load the corresponding language file
+        // Fetch the conflict management details from the remote server
         let conflictManagementDetails;
         try {
-            conflictManagementDetails = loadDetails(detailsFilePath);
+            const response = await axios.get(fileUrl);
+            conflictManagementDetails = response.data;
             logger.info(`Loaded conflict management details for language: ${languageCode}`);
         } catch (error) {
             logger.error(`Error loading or parsing file for language ${languageCode}:`, error);
@@ -592,6 +594,7 @@ app.post('/v1/:languageCode/submit-conflict-answers', (req, res) => {
         res.status(500).json({ error: 'An error occurred while processing your answers. Please try again.' });
     }
 });
+
 
 // Error handler for unhandled routes
 app.use((req, res) => {
