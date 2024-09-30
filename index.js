@@ -212,6 +212,16 @@ function loadQuestions(file) {
     return JSON.parse(fs.readFileSync(file, 'utf8'));
 }
 
+app.get('/debug/questions', (req, res) => {
+    const questionsDir = path.join(__dirname, 'questions');
+    fs.readdir(questionsDir, (err, files) => {
+        if (err) {
+            return res.status(500).json({ error: 'Unable to read questions directory.' });
+        }
+        res.json({ files });
+    });
+});
+
 // Route to get love language questions
 app.get('/v1/:languageCode/love-language', (req, res) => {
     const { languageCode } = req.params;
