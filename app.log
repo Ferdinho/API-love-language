@@ -4017,3 +4017,5 @@
 {"Accommodation":"2","Avoidance":"1","Collaboration":"4","Competition":"5","Compromise":"3","level":"info","message":"Style lookup map for language: en","timestamp":"2024-09-30T21:39:40.551Z"}
 {"level":"info","message":"Connection closed. Active connections: 0","timestamp":"2024-09-30T21:39:45.574Z"}
 {"level":"info","message":"Received SIGINT. Shutting down gracefully...","timestamp":"2024-09-30T21:44:09.114Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2024-09-30T21:44:12.894Z"}
+{"level":"info","message":"Files in answers directory: conflictManagement_ar.json,conflictManagement_en.json,conflictManagement_es.json,conflictManagement_fr.json,conflictManagement_pt.json,loveLanguage_ar.json,loveLanguage_en.json,loveLanguage_es.json,loveLanguage_fr.json,loveLanguage_pt.json","timestamp":"2024-09-30T21:44:12.913Z"}
