@@ -286,7 +286,7 @@ app.get("/v1/:languageCode/conflict-management", (req, res) => {
 
 // Love Language Route for submitting answers
 app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
-  const { answers } = req.body; // Expecting answers in the request body
+  let { answers } = req.body; // Expecting answers in the request body
   const { languageCode } = req.params; // Extract the language code from the URL
 
   try {
@@ -300,6 +300,14 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
       missingQuestions.push(i);
     }
 
+    // Automatically adjust if answers start from 0
+    if (answers[0]?.questionId === 0) {
+      answers = answers.map((answer) => ({
+        ...answer,
+        questionId: answer.questionId + 1,
+      }));
+    }
+
     // Validate that we have exactly 25 unique questionIds and valid answers (A-E)
     for (let i = 0; i < answers.length; i++) {
       const { questionId, answer } = answers[i];
@@ -309,11 +317,9 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
         logger.error(
           `Invalid questionId: ${questionId}. QuestionId must be a valid number.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid questionId: ${questionId}. QuestionId must be a valid number.`,
-          });
+        return res.status(400).json({
+          error: `Invalid questionId: ${questionId}. QuestionId must be a valid number.`,
+        });
       }
 
       // Check if questionId is between 1 and 25
@@ -321,11 +327,9 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
         logger.error(
           `Invalid questionId: ${questionId}. Must be between 1 and 25.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid questionId: ${questionId}. Must be between 1 and 25.`,
-          });
+        return res.status(400).json({
+          error: `Invalid questionId: ${questionId}. Must be between 1 and 25.`,
+        });
       }
 
       // Check for duplicate questionId
@@ -333,11 +337,9 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
         logger.error(
           `Duplicate questionId: ${questionId}. Each questionId must be unique.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Duplicate questionId: ${questionId}. Each questionId must be unique.`,
-          });
+        return res.status(400).json({
+          error: `Duplicate questionId: ${questionId}. Each questionId must be unique.`,
+        });
       }
       questionIds.add(questionId); // Add the questionId to the set
 
@@ -356,11 +358,9 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
         logger.error(
           `Invalid answer: ${answer}. Answer must be a single letter between A and E.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid answer: ${answer}. Answer must be a single letter between A and E.`,
-          });
+        return res.status(400).json({
+          error: `Invalid answer: ${answer}. Answer must be a single letter between A and E.`,
+        });
       }
 
       // Normalize the answer to uppercase for processing
@@ -369,11 +369,9 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
         logger.error(
           `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`,
-          });
+        return res.status(400).json({
+          error: `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`,
+        });
       }
     }
 
@@ -384,13 +382,11 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
           ", "
         )}. All questions from 1 to 25 are required.`
       );
-      return res
-        .status(400)
-        .json({
-          error: `Missing questions: ${missingQuestions.join(
-            ", "
-          )}. All questions from 1 to 25 are required.`,
-        });
+      return res.status(400).json({
+        error: `Missing questions: ${missingQuestions.join(
+          ", "
+        )}. All questions from 1 to 25 are required.`,
+      });
     }
 
     // Get the appropriate mapping based on the languageCode
@@ -510,18 +506,16 @@ app.post("/v1/:languageCode/submit-love-language-answers", (req, res) => {
     });
   } catch (error) {
     logger.error("Error processing love language answers:", error);
-    res
-      .status(500)
-      .json({
-        error:
-          "An error occurred while processing your answers. Please try again.",
-      });
+    res.status(500).json({
+      error:
+        "An error occurred while processing your answers. Please try again.",
+    });
   }
 });
 
 // Conflict Management Route for submitting answers
 app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
-  const { answers } = req.body; // Expecting answers in the request body
+  let { answers } = req.body; // Expecting answers in the request body
   const { languageCode } = req.params; // Extract the language code from the URL
 
   try {
@@ -535,6 +529,14 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
       missingQuestions.push(i);
     }
 
+    // Automatically adjust if answers start from 0
+    if (answers[0]?.questionId === 0) {
+      answers = answers.map((answer) => ({
+        ...answer,
+        questionId: answer.questionId + 1,
+      }));
+    }
+
     // Validate that we have exactly 25 unique questionIds and valid answers (A-E)
     for (let i = 0; i < answers.length; i++) {
       const { questionId, answer } = answers[i];
@@ -544,11 +546,9 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
         logger.error(
           `Invalid questionId: ${questionId}. QuestionId must be a valid number.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid questionId: ${questionId}. QuestionId must be a valid number.`,
-          });
+        return res.status(400).json({
+          error: `Invalid questionId: ${questionId}. QuestionId must be a valid number.`,
+        });
       }
 
       // Check if questionId is between 1 and 25
@@ -556,11 +556,9 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
         logger.error(
           `Invalid questionId: ${questionId}. Must be between 1 and 25.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid questionId: ${questionId}. Must be between 1 and 25.`,
-          });
+        return res.status(400).json({
+          error: `Invalid questionId: ${questionId}. Must be between 1 and 25.`,
+        });
       }
 
       // Check for duplicate questionId
@@ -568,11 +566,9 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
         logger.error(
           `Duplicate questionId: ${questionId}. Each questionId must be unique.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Duplicate questionId: ${questionId}. Each questionId must be unique.`,
-          });
+        return res.status(400).json({
+          error: `Duplicate questionId: ${questionId}. Each questionId must be unique.`,
+        });
       }
       questionIds.add(questionId); // Add the questionId to the set
 
@@ -591,11 +587,9 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
         logger.error(
           `Invalid answer: ${answer}. Answer must be a single letter between A and E.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid answer: ${answer}. Answer must be a single letter between A and E.`,
-          });
+        return res.status(400).json({
+          error: `Invalid answer: ${answer}. Answer must be a single letter between A and E.`,
+        });
       }
 
       // Normalize the answer to uppercase for processing
@@ -604,11 +598,9 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
         logger.error(
           `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`
         );
-        return res
-          .status(400)
-          .json({
-            error: `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`,
-          });
+        return res.status(400).json({
+          error: `Invalid answer: ${answer}. Answer must be one of A, B, C, D, E.`,
+        });
       }
     }
 
@@ -619,13 +611,11 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
           ", "
         )}. All questions from 1 to 25 are required.`
       );
-      return res
-        .status(400)
-        .json({
-          error: `Missing questions: ${missingQuestions.join(
-            ", "
-          )}. All questions from 1 to 25 are required.`,
-        });
+      return res.status(400).json({
+        error: `Missing questions: ${missingQuestions.join(
+          ", "
+        )}. All questions from 1 to 25 are required.`,
+      });
     }
 
     // Get the appropriate mapping based on the languageCode
@@ -746,12 +736,10 @@ app.post("/v1/:languageCode/submit-conflict-answers", (req, res) => {
     });
   } catch (error) {
     logger.error("Error processing conflict management answers:", error);
-    res
-      .status(500)
-      .json({
-        error:
-          "An error occurred while processing your answers. Please try again.",
-      });
+    res.status(500).json({
+      error:
+        "An error occurred while processing your answers. Please try again.",
+    });
   }
 });
 
