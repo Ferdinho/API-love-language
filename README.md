@@ -17,7 +17,7 @@ To use the API, you need an API key. You can request an API key by contacting **
 ### Base URL
 
 The base URL for the API is:
-https://love-language-api.vercel.app
+https://powerful-retreat-86658-466b4fc02c02.herokuapp.com
 
 ### Authentication
 Each request requires an `x-api-key` header with your API key. 
@@ -37,7 +37,7 @@ Example:Headers: { "x-api-key": "<your_api_key>" }
 
 **Example**:
 ```bash
-GET https://love-language-api.vercel.app/v1/en/love-language
+GET https://powerful-retreat-86658-466b4fc02c02.herokuapp.com/v1/en/love-language
 Headers: { "x-api-key": "<your_api_key>" }
 ```
 ***Response*** : 
@@ -82,7 +82,7 @@ Headers: { "x-api-key": "<your_api_key>" }
 
 **Example**:
 ```bash
-GET https://love-language-api.vercel.app/v1/en/conflict-management
+GET https://powerful-retreat-86658-466b4fc02c02.herokuapp.com/v1/en/conflict-management
 Headers: { "x-api-key": "<your_api_key>" }
 ```
 ***Response*** : 
@@ -128,7 +128,7 @@ Headers: { "x-api-key": "<your_api_key>" }
 
 **Example**:
 ```bash
-POST https://love-language-api.vercel.app/v1/en/submit-love-language-answers
+POST https://powerful-retreat-86658-466b4fc02c02.herokuapp.com/v1/en/submit-love-language-answers
 Headers: { "x-api-key": "<your_api_key>" }
 Body: 
 {
@@ -184,7 +184,7 @@ Body:
 
 **Example**:
 ```bash
-POST https://love-language-api.vercel.app/v1/en/submit-conflict-answers
+POST https://powerful-retreat-86658-466b4fc02c02.herokuapp.com/v1/en/submit-conflict-answers
 Headers: { "x-api-key": "<your_api_key>" }
 Body: 
 {
@@ -259,7 +259,7 @@ The API provides structured error handling. Common error responses include:
 
 Prometheus is integrated for collecting and monitoring API metrics, which include request count, request duration, and error rates. You can scrape the metrics from the **/metrics** endpoint:
 ```bash
-GET https://love-language-api.vercel.app/metrics
+GET https://powerful-retreat-86658-466b4fc02c02.herokuapp.com/metrics
 
 ```
 
